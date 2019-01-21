@@ -13,12 +13,8 @@ public class even_odd
 		  {
 		  System.out.println("Odd number");
 		  }
-		else if
-	          {
-		  System.out.println("Even Number");	
-		  }
 		else{
-		  System.out.println("invalid");
+		  System.out.println("Even Number");
 		}
 	}	
 }
