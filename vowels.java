@@ -15,20 +15,18 @@ char ch = Sc.next().charAt(0);
             case 'i':
             case 'o':
             case 'u':
-			case 'A':
+	    case 'A':
             case 'E':
             case 'I':
             case 'O':
             case 'U': Vowel = true;
              
-                
-        }
-		
+	    break;                
+        }		
 		if(Vowel == true){
 		System.out.println("vowel");	
 		}
-		else {
-			
+		else {			
 			if((ch >= 'a' && ch <= 'z')|| ( ch >='A' && ch <= 'Z' )){
 				System.out.println("consonant");
 			}
